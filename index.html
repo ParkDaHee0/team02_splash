@@ -1,44 +1,38 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ko">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ArgosCare</title>
-  <link rel="stylesheet" href="css/reset.css">
+  <!-- css -->
   <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/sub.css">
+
+  <!-- js -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </head>
 
 <body>
   <div id="wrap">
-    <div class="intro">
-      <img src="img/ico_logo.svg" alt="로고">
-      <h1>로그인</h1>
-      <div>
-        <form action="">
-          <fieldset>
-            <legend></legend>
-            <div class='search'>
-              <a href="sub/sub0001.html">시설을 선택하세요</a>
-            </div>
-            <div class="intro_id">
-              <input class="id_class" type="text" placeholder="아이디를 입력하세요">
-            </div>
-            <div class="intro_pw">
-              <input class="pw_class" type="password" placeholder='비밀번호를 입력하세요'>
-            </div>
-            <div class="intro_checkbox">
-              <input type="checkbox" checked> 로그인 상태유지
-            </div>
-            <div class="intro_btn">
-              <a class='btn_login' href='sub/main.html'>로그인 하기</a>
-            </div>
-          </fieldset>
-        </form>
+    <div class="sub0000">
+      <div class="sub0000_inner">
+        <img src="img/ico_splash.svg" alt="스플래쉬 로고">
+        <p>아르고스케어<br>
+          보호자용알림장</p>
       </div>
-    </div><!-- intro -->
-  </div><!-- #wrap -->
+    </div>
+  </div>
+  <script>
+    setTimeout('move_page()', 2000);
+    function move_page() {
+      location.href = "sub/sub0000.html"
+    }
+  </script>
 </body>
 
 </html>
