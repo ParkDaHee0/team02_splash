@@ -155,7 +155,7 @@ fieldset {
   position: fixed;
   left: 50%;
   bottom: 0;
-  width: cal(100% - 32px);
+  width: calc(100% - 32px);
   border-radius: 10px;
   border: 1px solid var(--line_ccc);
   transform: translateX(-50%);
